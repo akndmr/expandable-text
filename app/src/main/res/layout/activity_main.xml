@@ -12,6 +12,45 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <io.github.giangpham96.expandable_textview.ExpandableTextView
+            android:id="@+id/tvTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="16dp"
+            android:maxLines="10"
+            app:expandAction="Show more bold"
+            app:expandActionStyle="bold"
+            app:limitedMaxLines="2"
+            app:expandActionColor="@color/black"
+            app:originalText="@string/long_text" />
+
+        <io.github.giangpham96.expandable_textview.ExpandableTextView
+            android:id="@+id/tvTest2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="16dp"
+            android:maxLines="10"
+            app:expandAction="Show more italic"
+            app:expandActionStyle="italic"
+            app:limitedMaxLines="2"
+            app:expandActionColor="@color/black"
+            app:originalText="@string/long_text" />
+
+        <io.github.giangpham96.expandable_textview.ExpandableTextView
+            android:id="@+id/tvTest3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="16dp"
+            android:maxLines="10"
+            app:expandAction="Show more bold italic"
+            app:expandActionStyle="bold_italic"
+            app:limitedMaxLines="2"
+            app:expandActionColor="@color/black"
+            app:originalText="@string/long_text" />
+
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
