@@ -5,6 +5,12 @@
         <attr name="originalText" format="string" />
         <attr name="expandAction" format="string" />
         <attr name="expandActionColor" format="string" />
+        <attr name="expandActionStyle" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+            <enum name="bold_italic" value="3" />
+        </attr>
     </declare-styleable>
 
 </resources>
